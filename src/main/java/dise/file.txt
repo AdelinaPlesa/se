@@ -1,0 +1,5 @@
+if(x == 5) {
+
+ dupa un anumit nr de pasi
+  if(x <5 , x>5 sau x diferit de altceva
+}
