@@ -41,8 +41,7 @@ public class Main {
         boolean isContractSafe = true;
         int noOftestedContracts = 0;
 
-//        TODO to be decided
-        int constantScorint = 5;
+        int constantScoreint = 5;
 
         File folder = new File(args[0]);
 
@@ -77,7 +76,7 @@ public class Main {
 
         int nrOfEncounteredPatterns = Arrays.stream(counterByEachPatter).sum();
 
-        if(nrOfEncounteredPatterns > constantScorint) {
+        if(nrOfEncounteredPatterns > constantScoreint) {
 
             int gas = 0;
             for(int i=0; i < gasConsumption.length; i++) {
