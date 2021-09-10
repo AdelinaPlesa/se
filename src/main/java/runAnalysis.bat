@@ -1,5 +1,5 @@
 javac dise/Service.java
 javac dise/AlgorithmService.java
-javac dise/Maiin112.java
+javac dise/Main.java
 
-java dise/Maiin112 %1
+java dise/Main %1
